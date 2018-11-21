@@ -1,0 +1,474 @@
+<!-- The design for this document heavily borrows from a W3 schools template.
+     This template can be found at https://www.w3schools.com/w3css/w3css_templates.asp 
+     Created with w3.css  - an open source CSS library that provides some pretty sick
+     web design stuff. -->
+
+<!DOCTYPE html>
+<html>
+<title>The PA Wilds</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+	margin-bottom: 12px
+}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+	width: 120px;
+	background: #222;
+}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+	margin-left: 120px
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+	#main {
+		margin-left: 0
+	}
+}
+</style>
+<body class="w3-black">
+
+	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		<!-- Avatar image in top left corner -->
+		<img src="/w3images/avatar_smoke.jpg" style="width: 100%"> <a
+			href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+			<i class="fa fa-home w3-xxlarge"></i>
+			<p>Home</p>
+		</a> <a href="#the-wilds"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-user w3-xxlarge"></i>
+			<p>The Wilds</p>
+		</a> <a href="#threats"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-eye w3-xxlarge"></i>
+			<p>Threats</p>
+		</a> <a href="#take-action"
+			class="w3-bar-item w3-button w3-padding-large w3-hover-black"> <i
+			class="fa fa-envelope w3-xxlarge"></i>
+			<p>Take Action</p>
+		</a>
+	</nav>
+
+	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		<div
+			class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="#" class="w3-bar-item w3-button"
+				style="width: 25% !important">Home</a> <a href="#the-wilds"
+				class="w3-bar-item w3-button" style="width: 25% !important">The
+				Wilds</a> <a href="threats" class="w3-bar-item w3-button"
+				style="width: 25% !important">Threats</a> <a href="take-action"
+				class="w3-bar-item w3-button" style="width: 25% !important">Take
+				Action</a>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+		<!-- Header/Home -->
+		<header class="w3-container w3-padding-32 w3-center w3-black"
+			id="home">
+			<h1 class="w3-jumbo">
+				<span class="w3-hide-small">The</span> PA Wilds.
+			</h1>
+			<p>Leave No Trace. Just Take Action.</p>
+			<img src="Elk.jpg" alt="Elk" class="w3-image" width="992"
+				height="1108">
+			<!-- trying to make it kind of opaque: opacity = "80%" -->
+		</header>
+
+		<!-- About Section -->
+		<div class="w3-content w3-justify w3-text-grey w3-padding-64"
+			id="the-wilds">
+			<h2 class="w3-text-light-grey">The Wilds: A State Treasure</h2>
+			<hr style="width: 200px" class="w3-opacity">
+			<p>
+				In Pennsylvania, we are lucky to have a natural inheritance of
+				public land available for our responsible use and recreation known
+				as the PA Wilds. The land is expansive, encompassing 29 state parks,
+				300,000 acres of state gamelands, the Allegheny National Forest, and
+				90,000 acres of “wilderness,” as designated by the federal
+				government. Many residents of Pennsylvania and other states use the
+				wilds as an affordable way to spend time outdoors, using the 1,100
+				miles of hiking trails to get away from the commotion of busy city
+				streets. Gamelands provide a space for hunters, fishers, and
+				trappers to do these activities in a sustainable way, often helping
+				the environments there. Scenic overlooks and walkways provide a way
+				for families and friends to enjoy the natural beauty of land lightly
+				touched by human intervention. The wilds offer some of the best
+				stargazing in the state due to the low amounts of light pollution,
+				especially when compared to the cities on either end of PA. <br>
+				<br> With such abundant natural beauty, it is no wonder that an
+				astounding 97% of Pennsylvanians support dedication of state funds
+				for preserving our state’s natural spaces and historic sites. 90%
+				agreed that the support an <em>increase</em> in state funding for
+				these purposes (PA Land Trust). When people support the wilds, they
+				not only support the continued human enjoyment of the land, but also
+				a place where animals can thrive in their ecosystems that have only
+				seen minimal impact. One such ecosystem is the old growth forest,
+				which exists only in the Wilds territories of Pennsylvania. The
+				Pennsylvania elk herd calls this area home. Bald eagles use these
+				large trees in order to nest. These are not animals that will
+				stumble into your back yard like whitetail deer or raccoons. These
+				rarer species stick closer to the habitats that support them the
+				best. Having these habitats close to home means people can
+				responsibly use these environments and watch the animals in their
+				natural habitats, while without them, these animal populations would
+				surely suffer. Polls show that protecting the wilds is not a
+				partisan issue, but an issue for every resident of Pennsylvania.
+			</p>
+
+
+			<p class="w3-wide">
+			<h3>A Couple Popular Attractions...</h3>
+			</p>
+			<p class="w3-wide">Kinzua Skywalk</p>
+			<a
+				href="https://www.dcnr.pa.gov/StateParks/FindAPark/KinzuaBridgeStatePark/Pages/default.aspx"
+				target="blank"><img alt="Kinzua" src="kinzua.jpg"
+				class="w3-image"></img></a> <br>
+
+			<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">>Million</span><br> Acres of Forests
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">12.5</span><br> Counties
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">29</span><br> State Parks
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">16,000</span><br> Miles of Waterways
+				</div>
+			</div>
+			<p class="w3-wide">Alleghany Forest</p>
+			<a href="https://www.fs.usda.gov/allegheny" target="blank"><img
+				alt="Alleghany Forest" src="AlleghanyForest.png" class="w3-image"></img></a>
+			<br>
+
+			<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">2,300</span><br> Feet of Elevation
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">517,000</span><br> Acres
+				</div>
+				<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">1923</span><br>Established
+				</div>
+				<div class="w3-quarter w3-section">
+					<!-- <span class="w3-xlarge"></span> -->
+					<br>"Land of Many Uses"
+				</div>
+			</div>
+			<!--
+			<button class="w3-button w3-light-grey w3-padding-large w3-section">
+				<i class="fa fa-download"></i> Download Resume
+			</button>
+			-->
+
+			<!-- Grid for pricing tables - maybe turn this into a grid with pictures of some of the things the wilds have to offer
+    		Maybe even clickable links with the pictures -->
+
+			<!--  
+			<h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+			<div class="w3-row-padding" style="margin: 0 -16px">
+				<div class="w3-half w3-margin-bottom">
+				
+					<ul
+						class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+						<li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+						<li class="w3-padding-16">Web Design</li>
+						<li class="w3-padding-16">Photography</li>
+						<li class="w3-padding-16">5GB Storage</li>
+						<li class="w3-padding-16">Mail Support</li>
+						<li class="w3-padding-16">
+							<h2>$ 10</h2> <span class="w3-opacity">per month</span>
+						</li>
+						<li class="w3-light-grey w3-padding-24">
+							<button
+								class="w3-button w3-white w3-padding-large w3-hover-black">Sign
+								Up</button>
+						</li>
+					</ul>
+				</div>
+				-->
+
+			<!-- This is the other unordered list
+				<div class="w3-half">
+					<ul
+						class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+						<li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+						<li class="w3-padding-16">Web Design</li>
+						<li class="w3-padding-16">Photography</li>
+						<li class="w3-padding-16">50GB Storage</li>
+						<li class="w3-padding-16">Endless Support</li>
+						<li class="w3-padding-16">
+							<h2>$ 25</h2> <span class="w3-opacity">per month</span>
+						</li>
+						<li class="w3-light-grey w3-padding-24">
+							<button
+								class="w3-button w3-white w3-padding-large w3-hover-black">Sign
+								Up</button>
+						</li>
+					</ul>
+				</div>
+				End Grid/Pricing tables 
+				-->
+		</div>
+
+		<!-- Section that used to hold the testimonials
+			
+			<h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+			<img src="/w3images/bandmember.jpg" alt="Avatar"
+				class="w3-left w3-circle w3-margin-right" style="width: 80px">
+			<p>
+				<span class="w3-large w3-margin-right">Chris Fox.</span> CEO at
+				Mighty Schools.
+			</p>
+			<p>Jane Doe saved us from a web disaster.</p>
+			<br> <img src="/w3images/avatar_g2.jpg" alt="Avatar"
+				class="w3-left w3-circle w3-margin-right" style="width: 80px">
+			<p>
+				<span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at
+				Company.
+			</p>
+			<p>No one is better than Jane Doe.</p>
+			<!-- End The Wilds Section -->
+
+
+		<!-- Threats Section -->
+		<div class="w3-padding-64 w3-content" id="threats">
+			<!-- Leave No Trace Section - part of Threats? -->
+
+			<h3 class="w3-padding-16 w3-text-light-grey">Threats to the
+				Wilds</h3>
+			<hr style="width: 200px" class="w3-opacity">
+			<p class="w3-wide">Leave No (or at barely any) Trace</p>
+			<p>With any beautiful public land, there will always those who
+				would rather reap the maximum possible financial benefit from it,
+				rather than using it responsibly and protecting it. LaKeshia Knarr,
+				an Outreach Specialist for the PA Wilds Center, describes
+				conservation of the wilds as “the great balancing act that is a
+				multiple-use working forest.” The PA Wilds are not protected by the
+				federal government to the degree that the US National Parks are. For
+				this reason, it is impossible to expect that all resource harvesting
+				will cease. Fracking companies will come to harvest the natural gas
+				from the Marcellus Shale gas deposit underneath the lands of the
+				wilds. Logging companies will come to harvest the wood that will be
+				used for lumber. But this does not mean that their impacts cannot be
+				mitigated.</p>
+			<p>A common ethical code that many outdoors enthusiasts practice
+				is called “Leave No Trace” or LNT. In short, this ethical system
+				states that when a human is in a wild space, we must strive to make
+				as little as possible, if any impact on the environment. This means
+				not littering, putting out your campfires (if you must make them in
+				the first place), and being a responsible guest to your wild hosts.
+				By following these ethics, one can leave as little evidence of human
+				impact on an area as possible. While it is important that all
+				visitors to the wilds practice these ethics, they can also be
+				applied to more than just the individual visitors to a wild place.
+				In fact, through the continued efforts of voters and activists, many
+				companies have had to embrace them.</p>
+			<p>For example, for fracking companies to obtain the natural gas
+				that they want from the ground, they must drill several thousand
+				meters underground, past the fresh water supply, and into the shale
+				deposits where the natural gas sits. Before they can even start
+				drilling, they must often make roads that lead to their sites so
+				that their trucks can access these spots. Then, as they drill
+				underground, using “fracking water” shot through concrete tubes to
+				get to the gas. For years, no one outside the industry knew what was
+				in the fracking water. They did not have to disclose what chemicals
+				were being used.</p>
+			<p>Upon the initial discovery of the Marcellus Shale deposit,
+				companies fracked with no recourse and without thought given to what
+				might happen to the environment. Water supplies were tainted
+				, habitats were destroyed (Scientific American), rules were broken, and
+				as a result, wild spaces and drinking reservoirs (for both humans
+				and animals) were severely harmed. But the companies started to get
+				a lot of pushback from voters, and in turn, politicians. A Supply
+				Chain Manager from Seneca Resources, a prominent energy company that
+				fracks in Pennsylvania, said that “There’s a lot more incentive for
+				companies to be clean and efficient these days… Not to mention that
+				now, if we have some kind of environmental issue, it can cost us
+				tens of thousands of dollars,” (interview). The fines that he is
+				referring to come from Act 13 (LINK HERE), a PA law that concluded
+				that irresponsible fracking lead to a breach in the PA
+				Constitution’s guarantee to clean air and water for its residents.
+				This act was a direct result of sustained political action and
+				activism. With the right efforts, politicians will listen to the
+				voters who elected (and more importantly, will re-elect them), and
+				even large companies can be held at bay. Likewise, that mystery
+				substance that they used to use as fracking water is now public
+				knowledge and available at
+				https://fracfocus.org/chemical-use/what-chemicals-are-used for
+				public viewing. They are required by law to disclose these chemicals
+				now so the people who are affected can always stay informed.</p>
+			<p>This principle of action is not only true with fracking, but
+				also with logging and any other industries that look to use the
+				wilds to harvest natural resources. Fracking companies are not
+				perfect – no one is. If they are to be kept at bay, Pennsylvania
+				citizens must not let down their guards. It is your concern that
+				fuels the actions of the politicians and executives.</p>
+			<!-- Contact Section -->
+			<div class="w3-padding-64 w3-content" id="take-action">
+				<h2 class="w3-text-light-grey">Take Action</h2>
+				<hr style="width: 200px" class="w3-opacity">
+				<p class="w3-wide">Stewardship is Possible For All – It Has
+					Happened Before</p>
+				<p>In the case of harvesting natural resources, less action is
+					more. However, there are some cases where direct action is needed.
+					The reinstatement of the Pennsylvania elk herd is one such example.
+					Up until around the mid 1800’s, PA had a strong elk population.
+					These large animals lived mostly in the northern parts of
+					Pennsylvania, in areas that are now designated as the wilds. Elk
+					county was even named for its prevalence of the animal. But due too
+					deforestation and over-hunting, the elk population diminished. By
+					the 1850’s, the once strong population had been relegated to only a
+					few counties in the northern section of the state.</p>
+				<p>By the early 1900’s, elk became practically extinct in the
+					state of Pennsylvania. However, in 1912, Joseph Kalbfus, the
+					Executive Secretary of the PA Game Commission seized an opportunity
+					to reinstate the population. Elk ran rampant in Yellowstone
+					National Park and the Jackson Hole Refuge Area. Overpopulation of
+					any animal can be as destructive for an ecosystem as
+					underpopulation. The elk in the area took up too many the
+					resources. Animals often died of starvation and disease as a result
+					of the overpopulation. This unbalanced ecosystem affected every
+					species of plant and animal in the areas. The PA Game Commission
+					organized for some of the elk herd to be taken to Pennsylvania,
+					where they could re-populate the former elk lands. The commission
+					has been monitoring elk populations ever since, and they have seen
+					an impressive resurgence.</p>
+				<p>The elk herd now numbers over a thousand (reference needed)
+					with numbers focused in Elk and surrounding counties. The presence
+					of the elk also helps quell the deer whitetail deer population. It
+					is important to note that without human intervention, the elk would
+					not have become extinct in our state in the first place. It is also
+					important to recognize when we have caused damage to our ecosystems
+					but still have the ability to reverse some of that damage.
+					Stewardship is not impossible. In fact, with the right care and
+					resources, improvements have been, and can continue to be made. The
+					PA Game Commission also continues to do great work, aiming to
+					re-populate the state with more native species, such as upland
+					birds. In order for them, and organizations like them, to make
+					these positive strides, resources are needed. Hunters can help by
+					buying licenses, following state and local hunting laws, and always
+					reporting their harvests to the game commission so that they can
+					keep tabs on animal populations.</p>
+				<p class="w3-wide">Visit!</p>
+				<p>One of the easiest and most enjoyable ways to support the
+					wilds is to visit! When you go to visit the wilds, you are doing
+					more than just enjoying nature (although for many, that is enough
+					motivation!). You are helping boost the local economy. Purchasing
+					passes to camp, as well as shopping at local stores help the people
+					who work in the area, and help the wilds gain the money that can go
+					back into conservation. Of course, the wilds provide a great place
+					to camp, hunt, or enjoy nature, but there are also opportunities
+					for those who do not particularly enjoy the being outside for so
+					long.. Events throughout the year (add hyperlink in web page)
+					provide opportunities to shop for handmade goods, buy local
+					produce, and enjoy holiday-themed fun for the whole family. Each
+					event provides an opportunity to help small businesses who have a
+					smaller environmental impact on the area than larger corporations
+					(LaKeshia Knarr).</p>
+				<p class="w3-wide">Don’t wait for someone else. It’s on you to
+					be the good steward</p>
+				<p>There will always be those who abuse wild spaces. There will
+					always be people who throw empty beer cans into the woods when they
+					camp, let their shopping-bag-trash-cans blow away, or hunt over
+					their legal bag limits. This is why it is all the more important
+					for those who truly care for the wilds to be stewards. The first
+					step is to connect – or reconnect – with the outdoors. A trip out
+					to the beauty that the wilds offer is often all the motivation a
+					person needs to act to protect it. Beyond that, there are
+					opportunities provided by the PA Department of Conservation and
+					Natural Resources for people to come and clean up the landscape. It
+					is not right to have to clean up someone else’s mess, but it is a
+					small price to pay to maintain our state’s natural beauty.</p>
+				<p>As a Pennsylvanian, it is your civic duty to vote. As a
+					steward of the wilds, it is your duty to vote for those who, like
+					you, will protect them. Politicians listen to their voters so they
+					can get into office and get re-elected. We hold them accountable
+					with our votes. If they know that their constituents care deeply
+					for the environment, they will vote in favor of protecting it. It
+					has happened before in the case of limiting and regulating
+					fracking, and it can happen again with our continued efforts. You
+					can always look for your potential public officials’ voting records
+					manually, checking how they voted for each law and referendum.
+					However, the internet has made it much easier. There are now plenty
+					of online resources like this one
+					(http://scorecard.lcv.org/members-of-congress) that show you. Or
+					simply scroll down to see a few of the environmental standouts from
+					our great state. And if you have the means, consider donating to
+					conservation agencies that put in the leg work to keep the PA Wilds
+					what they were always meant to be – wild.</p>
+
+				<table class="w3-table-all w3-hoverable w3-centered  w3-text-grey">
+					<th>Official</th>
+					<th>District</th>
+					<th>Canidate</th>
+					<th>Why Them?</th>
+					<tbody>
+						<tr>
+							<td>Gov. Tom Wolf</td>
+							<td>PA</td>
+							<td><a href="https://www.wolfforpa.com/" target="blank"><img
+									alt="Gov. Tom Wolf" src="TomWolf.jpg" class="w3-image" /> </a></td>
+							<td>Endorsement from Conservation Voters PA</td>
+						</tr>
+
+						<tr>
+							<td>Rep. Brian Fitzpatrick</td>
+							<td>PA-08</td>
+							<td><a href="https://fitzpatrick.house.gov/" target="blank"><img
+									alt="Rep. Brian Fitzpatrick" src="BrianFItzpatrick.jpg"
+									class="w3-image" /></a></td>
+							<td>High environmental voting record, LCV scorecard</td>
+						</tr>
+						<tr>
+							<td>Rep. Mike Doyle</td>
+							<td>PA-14</td>
+							<td><a href="https://doyle.house.gov/" target="blank"><img
+									alt="Rep. Mike Doyle" src="MikeDoyle.jpg" class="w3-image" />
+							</a></td>
+							<td>High environmental voting record, LCV scorecard</td>
+						</tr>
+					</tbody>
+				</table>
+				<!-- End Contact Section -->
+			</div>
+		</div>
+		<!-- Footer -->
+		<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+			<i class="fa fa-facebook-official w3-hover-opacity"></i> <i
+				class="fa fa-instagram w3-hover-opacity"></i> <i
+				class="fa fa-snapchat w3-hover-opacity"></i> <i
+				class="fa fa-pinterest-p w3-hover-opacity"></i> <i
+				class="fa fa-twitter w3-hover-opacity"></i> <i
+				class="fa fa-linkedin w3-hover-opacity"></i>
+			<p class="w3-medium">
+				Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+					target="_blank" class="w3-hover-text-green">w3.css</a>
+			</p>
+			<!-- End footer -->
+		</footer>
+
+		<!-- END PAGE CONTENT -->
+	</div>
+
+</body>
+</html>
